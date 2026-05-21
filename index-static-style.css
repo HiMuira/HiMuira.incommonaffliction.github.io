@@ -327,7 +327,7 @@ footer {
 
     main {
         display: grid;
-        grid-template: 230px/repeat(2, 1fr);
+        grid-template: 243px/repeat(2, 1fr);
         grid-template-areas:
             "A B";
         border: var(--borderW);
