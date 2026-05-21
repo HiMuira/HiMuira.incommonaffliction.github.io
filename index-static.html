@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN PAGE</title>
+    <link rel="stylesheet" href="index-static-style.css">
+    <script src="JS/main-tilt.js" defer></script>
+</head>
+
+<body>
+    <section class="overlay color"></section>
+    <section class="overlay flicker"></section>
+    <section class="overlay colorback"></section>
+
+    <header>
+        <nav>
+            <a href="index.html" class="selected-page">summary</a>
+            <a href="fixed.html">fixed</a>
+            <a href="boot.html">boot</a>
+            <a href="seq.html">seq</a>
+            <a href="more+.html">more+</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <div class="print"> </div> -->
+        <div class="false-code" contenteditable>
+            <p>
+                // PROJECT NIGHTFALL — BOOT SEQUENCE<br>
+                [INIT] 00:00:00.000 - NTF-Core v3.7.1 initializing...<br>
+                [AUTH] keyring: ▲▲▲▲-████-◎◎◎◎ (checksum: 9F:2C:4B)<br>
+                [SYNC] Orbital handshake -> 0x7A:0x1C:0xF3 ... OK<br>
+                [HALO] Stabilizer coils: 12/12<br>
+                [ANN] Codename: NIGHTFALL // Subroutine: OBLIVION-ARC<br>
+                --- boot stages loaded ---<br>
+                > /usr/bin/ntf/ignite --phase=echo --mask=†<br>
+                >>> sequence: ████████▓░░ 72% (quiet)<br>
+            </p>
+
+            <p>
+                # DOOM-TETHER v0.0.9 (cosmetic)<br>
+                import time, binascii, random<br>
+                def engage():<br>
+                sentinel = b"MU1R4-H4VEN"<br>
+                for i in range(8):<br>
+                tick = binascii.hexlify(sentinel + bytes([i])).decode()<br>
+                print(f"[{i:02}] -> 0x{tick[:8]}:{tick[8:]} :: AUTH {random.randint(100,999)}")<br>
+                time.sleep(0.06)<br>
+                print(">>> DOOM-TETHER ONLINE")<br>
+                engage()<br>
+                # (visual-only; not connected)<br>
+            </p>
+
+            <p>
+                ; OBLIVION-ARC microkernel (ENGAGED)<br>
+                ORG 0x0000<br>
+                START:<br>
+                MOV R0, #0xDE<br>
+                MOV R1, #0xAD<br>
+                XOR R2, R0, R1<br>
+                CALL @INIT-VECTOR<br>
+                WAIT #0x0A<br>
+                JMP START<br>
+                @INIT-VECTOR:<br>
+                PUSH R0<br>
+                PUSH R1<br>
+                NOP<br>
+                POP R1<br>
+                POP R0<br>
+                RET<br>
+                ; Hex: DE AD BE EF ... aesthetic only<br>
+            </p>
+
+            <p>
+                ████████████████████████░░░░░░░░░<br>
+                █ PROJECT: OBLIVION-ARC / SEAL: 0xAF3D █<br>
+                █ AUTH: [■■■■■■■■] | THREAT MATRIX: ▼ █<br>
+                █ INIT: █▒▒▒▒▒▒▒▒▒ 14% | WAIT: 00:03:21 █<br>
+                █████████████░░░░░░░░░░░░░░░░░░░░░░░░░
+            </p>
+
+            <p>
+                ///Come///
+                ///OBLIVION///
+                ///Come///
+                ///OBLIVION///<br>
+                ///Come///
+                ///OBLIVION///
+                ///Come///
+                ///OBLIVION///
+            </p>
+        </div>
+        <div class="image">
+            <img src="Assets/Images/Summary/dither.muira.png"
+                alt="Battle Torn Muira Holds A Sword With Prealiia's Sigil On it">
+        </div>
+    </main>
+
+    <section class="bottom-grid-container">
+        <div class="bottom-code">
+            <p>data collection//:[redacted]</p>
+            <p>run://alt-echo::initiative</p>
+            <p>engage #fail-safe...[</p>
+            <p>run://shadow-simulant.exe]</p>
+            <p>initiate:// <span class="anamnesis-border">anamnesis</span>;</p>
+        </div>
+        <div class="bank">
+            <p>bank 1</p>
+            <p>bank 2</p>
+        </div>
+        <div class="lastwish">
+            <p>lastwish</p>
+            <p>lastwish</p>
+        </div>
+        <div class="lastwish">
+            <p>lastwish</p>
+            <p>lastwish</p>
+        </div>
+        <div class="lastwish">
+            <p>lastwish</p>
+            <p>lastwish</p>
+        </div>
+        <div class="bottom-code">
+            <p>[config. alt ether] //- 0606 -/ =]</p>
+            <p>// #dest : "prealiia's ruin"</p>
+            <p>//[succumb] : i.c.a vol 16</p>
+            <p>//class="ithurdune"</p>
+            <p>.program [affliction]</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="bios">: : <span class="type-bar">bios boot screen</span></div>
+        <div class="echo">
+            <p>echo</p>
+            <p>echo</p>
+            <p>echo</p>
+            <p>echo</p>
+            <p>echo</p>
+            <p>echo</p>
+            <p>echo</p>
+            <p>echo</p>
+
+        </div>
+        <div class="poem">
+            you can't have it back. I've waited an eternity just to glimpse your light. All my life it pulled on me,
+            like a white knuckled sailor, scared to death to loosen his grip on his oar--his one life line in a terrible
+            sea. So no--I won't let you be selfish with it, you've always been selfish with my thoughts, keeping them
+            all close to you
+        </div>
+        <img src="Assets/Images/Shared/ica.png" alt="in.common.affliction" class="ica">
+
+    </footer>
+
+</body>
+
+</html>
