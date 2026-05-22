@@ -539,7 +539,7 @@ footer {
 
     main {
         display: grid;
-        grid-template: 393.5px/100%;
+        grid-template: 409.5px/100%;
         border: var(--borderW);
         border-radius: 2px;
     }
