@@ -317,7 +317,7 @@ footer {
     main {
         display: grid;
         /* grid-template: 230px/100%; */
-        grid-template: 365px/100%;
+        grid-template: 395px/100%;
         border: var(--borderW);
         border-radius: 2px;
         position: relative;
@@ -328,7 +328,7 @@ footer {
     }
 
     main .image img {
-        scale: 1.3;
+        scale: 1.4;
     }
 
     .bottom-code {
