@@ -317,7 +317,7 @@ footer {
     main {
         display: grid;
         /* grid-template: 230px/100%; */
-        grid-template: 395px/100%;
+        grid-template: 405.7px/100%;
         border: var(--borderW);
         border-radius: 2px;
         position: relative;
@@ -365,7 +365,7 @@ footer {
     }
 
     .poem {
-        line-height: 1.2;
+        line-height: 1;
     }
 
 
