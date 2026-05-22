@@ -419,6 +419,8 @@ footer .ica {
         position: relative;
     }
 
+    /* Styling Images Post Media Query */
+
     .heroimage {
         align-content: center;
     }
