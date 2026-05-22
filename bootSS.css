@@ -428,6 +428,14 @@ footer .ica {
         filter: blur(.2px);
     }
 
+    .cyndari-trees img {
+        filter: blur(.2px);
+    }
+
+    .botf img {
+        filter: blur(.2px);
+    }
+
     .bottom-code {
         font-size: .3rem;
     }
