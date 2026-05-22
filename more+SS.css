@@ -552,7 +552,7 @@ footer {
         align-items: center;
         font-size: .8rem;
         white-space: nowrap;
-        height: 59px;
+        height: 63px;
         width: 120px;
         padding: 0 10px;
         margin-bottom: 5px;
@@ -572,7 +572,7 @@ footer {
         max-width: 781px;
         min-width: clamp(200px, 70vw, 270px);
         overflow: scroll;
-        height: 381px;
+        height: 404px;
         font-size: .8rem;
         color: rgb(255, 255, 255);
         padding: 0px 15px;
