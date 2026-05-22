@@ -343,12 +343,9 @@ footer {
 
     main .image img {
         scale: 1.5;
+         filter: blur(.2px);
     }
-
-    img {
-        filter: blur(.2px);
-    }
-
+    
     .bottom-code {
         font-size: .3rem;
     }
