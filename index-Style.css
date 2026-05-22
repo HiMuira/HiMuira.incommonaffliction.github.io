@@ -182,7 +182,7 @@ main .image {
     border: var(--borderW);
     border-radius: 2px;
     margin: 4px;
-    filter: blur(.5px);
+    /* filter: blur(.5px); */
     overflow: hidden;
     grid-area: B;
 
