@@ -339,7 +339,7 @@ footer {
 
     main .image {
         align-content: center;
-        filter: blur(.2px);
+        /* filter: blur(.2px); */
     }
 
     main .image img {
