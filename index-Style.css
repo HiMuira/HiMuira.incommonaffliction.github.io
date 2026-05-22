@@ -194,7 +194,6 @@ main .image {
 
 img {
     max-width: 100%;
-
 }
 
 .print {
@@ -337,6 +336,7 @@ footer {
         position: relative;
     }
 
+
     main .image {
         align-content: center;
         /* filter: blur(.2px); */
@@ -345,7 +345,7 @@ footer {
     main .image img {
         scale: 1.5;
     }
-    
+
     .bottom-code {
         font-size: .3rem;
     }
