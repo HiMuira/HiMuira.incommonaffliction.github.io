@@ -419,6 +419,10 @@ footer .ica {
         position: relative;
     }
 
+    img {
+        filter: blur(.2px);
+    }
+
     .bottom-code {
         font-size: .3rem;
     }
