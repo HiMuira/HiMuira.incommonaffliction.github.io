@@ -337,6 +337,10 @@ footer {
         position: relative;
     }
 
+        img {
+        filter: blur(.2px);
+    }
+
     main .image {
         align-content: center;
     }
