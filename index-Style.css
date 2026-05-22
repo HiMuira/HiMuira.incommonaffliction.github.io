@@ -339,11 +339,11 @@ footer {
 
     main .image {
         align-content: center;
+        filter: blur(.2px);
     }
 
     main .image img {
         scale: 1.5;
-        filter: blur(.2px);
     }
     
     .bottom-code {
