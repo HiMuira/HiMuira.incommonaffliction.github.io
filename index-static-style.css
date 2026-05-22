@@ -335,7 +335,7 @@ footer {
         position: relative;
     }
 
-        img {
+    img {
         filter: blur(.2px);
     }
 
