@@ -337,16 +337,16 @@ footer {
         position: relative;
     }
 
-    img {
-        filter: blur(.2px);
-    }
-
     main .image {
         align-content: center;
     }
 
     main .image img {
         scale: 1.5;
+    }
+
+    img {
+        filter: blur(.2px);
     }
 
     .bottom-code {
